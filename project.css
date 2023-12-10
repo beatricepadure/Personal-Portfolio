@@ -1,0 +1,33 @@
+@keyframes my-animation {
+    from {background-color:rgb(250, 157, 51);}
+    to {background-color: bisque;}
+}
+div#block {
+    animation-name:my-animation;
+    animation-duration:3s
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#block {
+    color: rgb(23, 92, 71);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    width: 1100px;
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+body {
+    background-image: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
