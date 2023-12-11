@@ -2,6 +2,11 @@
     from {background-color:rgb(250, 157, 51);}
     to {background-color: bisque;}
 }
+ul {
+    color:white;
+    font:Helvetica;
+    font-size:40px
+}
 div#block {
     animation-name:my-animation;
     animation-duration:3s
