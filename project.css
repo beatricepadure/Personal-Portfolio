@@ -13,6 +13,7 @@ div#block {
 }
 p {
     display: block;
+    margin: 25px 50px 25px 50px;
 }
 #block {
     color: rgb(23, 92, 71);
