@@ -14,8 +14,6 @@
 .content {
     background-color: rgb(89, 173, 145);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
-    margin-bottom: 10px;
 }
 ul {
     color:white;
@@ -48,7 +46,7 @@ p {
 .bold {
     text-transform: uppercase;
     font-weight: 900;
-    color: rgb(59, 65, 14);
+    color: rgb(149, 222, 183);
 }
 
 body {
