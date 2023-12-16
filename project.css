@@ -59,6 +59,9 @@ body {
     text-align: center;
     padding: 20px;
 }
+nav {
+    background-color: rgb(149, 221, 222);
+}
 img {
     width:100px;
     height:100px;
