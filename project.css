@@ -15,6 +15,7 @@
     background-image:url("https://orizont.md/wp-content/uploads/2022/12/50086566077_100d6818a0_o-1024x533.jpg")
 }
 .content {
+    padding:10px
     background-color: rgb(89, 173, 145);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -59,7 +60,7 @@ body {
     text-align: center;
     padding: 20px;
 }
-nav {
+ul {
     background-color: rgb(149, 221, 222);
 }
 img {
