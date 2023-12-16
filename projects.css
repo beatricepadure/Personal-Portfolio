@@ -1,5 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
 }
 
@@ -36,6 +38,7 @@ nav li {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .content h1 {
@@ -50,9 +53,26 @@ nav li {
 }
 
 .edu {
-    background: url('https://orizont.md/wp-content/uploads/2022/12/50086566077_100d6818a0_o-1024x533.jpg') center/cover;
+    background: url('https://orizont.md/wp-content/uploads/2022/12/50086566077_100d6818a0_o-1024x533.jpg') center/cover fixed;
     color: #fff;
-    padding: 20px;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.edu::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.edu h1 {
+    z-index: 1;
 }
 
 .footer {
@@ -78,4 +98,13 @@ nav li {
 .footer img {
     width: 30px;
     margin: 0 5px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
