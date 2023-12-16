@@ -13,6 +13,7 @@
 }
 .edu {
     background-image:url("https://orizont.md/wp-content/uploads/2022/12/50086566077_100d6818a0_o-1024x533.jpg")
+    color:white;
 }
 .content {
     padding:10px
@@ -36,8 +37,6 @@ p {
 #block {
     color: rgb(23, 92, 71);
     font-size: 25px;
-    width: 1100px;
-    height: 500px;
     cursor: pointer;
     background-color:bisque;
     text-align:center
