@@ -1,15 +1,26 @@
 @keyframes my-animation {
     from {background-color:rgb(250, 157, 51);}
-    to {background-color: bisque;}
+    to {background-color: rgb(222, 235, 255);}
+}
+.header {
+    background-color: rgb(80, 128, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+    color:antiquewhite;
+    margin-bottom: 10px;
+}
+.content {
+    background-color: rgb(89, 173, 145);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 ul {
     color:white;
     font:Helvetica;
     font-size:20px;
-}
-div#block {
-    animation-name:my-animation;
-    animation-duration:3s
 }
 p {
     display: block;
@@ -32,12 +43,23 @@ p {
     background-color:bisque;
     text-align:center
 }
+.footer {
+    background-color: rgb(67, 105, 52);
+    color:antiquewhite;
+    padding: 10px
+}
+.bold {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(59, 65, 14);
+}
+
 body {
-    background-color: brown ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    animation-name:my-animation;
+    animation-duration:3s
+    background-color: rgb(222, 235, 255);
     text-align: center;
+    padding: 20px;
 }
 img {
     width:100px;
