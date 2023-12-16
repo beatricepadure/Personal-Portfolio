@@ -1,7 +1,5 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -22,13 +20,11 @@ nav {
     background-color: #34495e;
     color: #ecf0f1;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 nav li {
@@ -76,15 +72,12 @@ nav li:hover {
     content: "";
     background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .edu h1 {
     z-index: 1;
     font-size: 2.5em;
+    color: #fff;
 }
 
 .footer {
@@ -95,12 +88,11 @@ nav li:hover {
 }
 
 .footer h1 {
-    margin: 0;
     font-size: 2em;
 }
 
 .footer p {
-    margin: 5px 0;
+    margin: 5px ;
 }
 
 .footer a {
@@ -115,4 +107,17 @@ nav li:hover {
 
 .footer img {
     width: 30px;
- 
+    margin: 0 5px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
